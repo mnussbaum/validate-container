@@ -1,0 +1,4 @@
+FROM alpine:3.6
+
+LABEL TESTCMD=/bin/true
+CMD ["sleep", "1"]
